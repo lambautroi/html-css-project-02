@@ -32,6 +32,7 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
 .line-clame {
     display: -webkit-box;
     -webkit-line-clamp: var(--line-clame, 2);
@@ -510,4 +511,77 @@ a {
 }
 .blog .dots {
     margin-top: 38px;
+}
+
+/* ===  footer === */
+.footer {
+    padding: 96px 0 28px;
+    background: #2e2100;
+}
+.footer .footer-top {
+    display: flex;
+}
+.footer-top .company {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    margin-right: 145px;
+}
+
+.footer-top .company .desc {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+}
+.footer-top .company .conatct {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    gap: 18px;
+}
+.footer .infomation {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+.footer .infomation .title {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #ffffff;
+}
+.footer .infomation .separate {
+    margin-top: 14px;
+    width: 130px;
+    height: 1px;
+    background: #59554b;
+}
+.footer .infomation .list {
+    margin-top: 16px;
+}
+.footer .infomation .item {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+}
+.footer .infomation .item strong {
+    font-weight: 600;
+}
+.footer-bottom .separate {
+    margin-top: 38px;
+    width: 1170px;
+    height: 1px;
+    background: #59554b;
+}
+.footer-bottom .copy-right {
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #807d74;
+    text-align: center;
 }
